@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@tryretool/custom-component-support": "latest",
+    "posthog-js": "^1.390.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-pivottable": "^0.11.0"
@@ -25,6 +26,7 @@
   },
   "devDependencies": {
     "@types/react": "^18.2.55",
+    "@types/react-pivottable": "^0.11.6",
     "@typescript-eslint/eslint-plugin": "^7.3.1",
     "@typescript-eslint/parser": "^7.3.1",
     "eslint": "^8.57.0",
@@ -33,9 +35,9 @@
     "prettier": "^3.0.3"
   },
   "retoolCustomComponentLibraryConfig": {
-    "name": "PivotTable",
-    "label": "Pivot Table",
-    "description": "Pivot table in Retool",
+    "name": "PivotTablesV2",
+    "label": "pivot tables v2",
+    "description": "pivot tables",
     "entryPoint": "src/index.tsx",
     "outputPath": "dist"
   }
